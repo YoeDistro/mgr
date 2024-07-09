@@ -13,5 +13,6 @@ pub fn build(b: *std.Build) void {
     });
 
     exe.linkLibC();
+    exe.linkSystemLibrary("systemd");
     b.installArtifact(exe);
 }
