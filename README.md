@@ -1,6 +1,10 @@
 # mgr
 
-An experiment that uses Zig to build a C/D-Bus app.
+An experiment that uses Zig to build a D-Bus app written in C (maybe eventually Zig).
+
+## Building
+
+- `zig build`
 
 ## TODO
 
